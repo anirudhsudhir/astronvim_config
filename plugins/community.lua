@@ -26,8 +26,6 @@ return {
   },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
 
-  { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
-
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.html-css" },
@@ -35,4 +33,10 @@ return {
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.test.neotest" },
+
+  { import = "astrocommunity.workflow.hardtime-nvim" },
+  { import = "astrocommunity.scrolling.neoscroll-nvim" },
+  { import = "astrocommunity.git.blame-nvim" },
+  { import = "astrocommunity.git.diffview-nvim" },
+  { import = "astrocommunity.editing-support.todo-comments-nvim" },
 }
