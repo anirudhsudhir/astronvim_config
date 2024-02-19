@@ -37,4 +37,11 @@ return {
       { "<leader>ltS", function() require("neotest").run.stop() end, desc = "Stop" },
     },
   },
+  {
+    "VonHeikemen/fine-cmdline.nvim",
+    dependencies = {"MunifTanjim/nui.nvim" },
+    keys = {
+      { "<CR>", "<cmd>FineCmdline<CR>"},
+    }
+  },
 }

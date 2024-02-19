@@ -10,6 +10,9 @@ return {
 
   { import = "astrocommunity.color.transparent-nvim" },
   { import = "astrocommunity.colorscheme.gruvbox-nvim" },
+  { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.colorscheme.fluormachine-nvim" },
+  { import = "astrocommunity.colorscheme.tokyonight-nvim" },
 
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.go" },
